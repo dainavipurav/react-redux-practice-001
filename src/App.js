@@ -13,6 +13,9 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
+        <ItemComponent cake />
+        <ItemComponent />
+
         <HooksCakeComponent />
         <CakeComponent />
 
@@ -23,9 +26,6 @@ function App() {
         <FishComponent />
 
         <NewCakeComponent />
-
-        <ItemComponent cake />
-        <ItemComponent />
       </div>
     </Provider>
   );
