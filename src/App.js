@@ -6,6 +6,7 @@ import IcecreamComponent from "./components/IcecreamComponent";
 import HookIcecreamComponent from "./components/HookIcecreamComponent";
 import FishComponent from "./components/FishComponent";
 import HooksFishComponent from "./components/HooksFishComponent";
+import NewCakeComponent from "./components/NewCakeComponent";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
 
         <HooksFishComponent />
         <FishComponent />
+
+        <NewCakeComponent />
       </div>
     </Provider>
   );
