@@ -8,11 +8,14 @@ import FishComponent from "./components/FishComponent";
 import HooksFishComponent from "./components/HooksFishComponent";
 import NewCakeComponent from "./components/NewCakeComponent";
 import ItemComponent from "./components/ItemComponent";
+import UserComponent from "./components/UserComponent";
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
+        <UserComponent />
+
         <ItemComponent cake />
         <ItemComponent />
 
